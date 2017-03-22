@@ -22,8 +22,8 @@ In practice, I use these scripts in two places on the FreeNAS VM: `startup-scrip
 Requirements:
 * The SSH service must be enabled on the ESXi host and public key logons configured from the FreeNAS VM where you wish to execute the scripts.
 * The VMware Tools or equivalent (e.g., Open VM Tools) must be installed on all VMs. This enables the ESXi host to gracefully shut down the VMs when necessary.
-* The scripts are configured to live in a directory named /mnt/tank/systems/scripts - you will need to edit them to match their location on your system.
-* You will need to edit the host.config and esxi.config files to suit your environment.
+* The scripts are configured to live in a directory named `/mnt/tank/systems/scripts` - you will need to edit them to match their location on your system.
+* You will need to edit the `host.config` file to suit your environment.
 
 ***
 # esxi-poweroff-host.sh

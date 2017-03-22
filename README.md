@@ -17,7 +17,7 @@ At startup, it is necessary to force the ESXi host to rescan its datastores so t
 I configure FreeNAS to monitor the UPS and shut the AIO system down if the power goes off-line. FreeNAS issues a `poweroff` command to the ESXi host when the power goes offline long enough for the UPS service to trigger a shutdown. Before powering down, the ESXi host shuts down all of its running VMs, including FreeNAS. 
 
 In practice, I use these scripts in two places on the FreeNAS VM: `startup-script.sh` and `shutdown-script.sh`, configured respectively as postinit and shutdown tasks:
-![FreeNAS Task Setup](https://github.com/Spearfoot/utility-scripts-for-freenas-and-vmware/esxi/freenas-task-setup.jpg)
+![alt text](https://github.com/Spearfoot/utility-scripts-for-freenas-and-vmware-esxi/blob/master/freenas-task-setup.jpg)
 
 Requirements:
 * The SSH service must be enabled on the ESXi host and public key logons configured from the FreeNAS VM where you wish to execute the scripts.

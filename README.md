@@ -65,4 +65,4 @@ Sample shutdown script for use as a FreeNAS shutdown Init/Shutdown Task.
 Sample host configuration settings.
 ***
 # esxi.config
-Sample ESXi configuration settings.
+Common code for ESXi support.

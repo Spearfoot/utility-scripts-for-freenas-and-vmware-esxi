@@ -60,5 +60,9 @@ Sample startup script for use as a FreeNAS postinit Init/Shutdown Task.
 ***
 # shutdown-script.sh
 Sample shutdown script for use as a FreeNAS shutdown Init/Shutdown Task.
-
-
+***
+# host.config
+Sample host configuration settings.
+***
+# esxi.config
+Sample ESXi configuration settings.

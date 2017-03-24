@@ -11,6 +11,6 @@
 
 logfile=${logdir}/esxi-poweroff-host.log
 
-echo "$(date}: $0 sending poweroff command to ESXi host ${esxihost}" | tee -a $logfile
+echo "$(date): $0 sending poweroff command to ESXi host ${esxihost}" | tee -a $logfile
 
 ssh root@"${esxihost}" poweroff

@@ -1,7 +1,7 @@
 # All-In-One utility scripts for FreeNAS and VMware ESXi 
 A set of POSIX-compliant shell scripts for use with FreeNAS and VMware ESXi.
 
-An All-In-One (AIO) system is a hypervisor with a NAS virtual machine (VM) providing data storage for additional VMs. My AIO systems consist of FreeNAS 9.10.x running as a virtual machine (VM) on VMware ESXi 6.0, with direct control of the system's hard drives passed through to the FreeNAS VM via VT-d. ESXi and the FreeNAS VM boot from a local datastore, with FreeNAS providing block or NFS-based datastores for additional VMs. 
+An All-In-One (AIO) system is a hypervisor with a NAS virtual machine (VM) providing data storage for additional VMs. My AIO systems consist of FreeNAS 9.10.x running as a VM on VMware ESXi 6.0, with direct control of the system's hard drives passed through to the FreeNAS VM via VT-d. ESXi and the FreeNAS VM boot from a local datastore, with FreeNAS providing block or NFS-based datastores for additional VMs. 
 
 Everyone crazy enough to build an AIO ends up asking the same questions: 
 

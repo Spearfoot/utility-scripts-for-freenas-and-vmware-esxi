@@ -23,7 +23,9 @@ fi
 esxiuser=$1
 esxihost=$2
 # ESXi datastore must be uppercase:
-esxidatastore=$(echo "$3" | tr '[:lower:]' '[:upper:]')
+#esxidatastore=$(echo "$3" | tr '[:lower:]' '[:upper:]')
+#November 2020: no longer seems to be the case, just assign the user's datastore name 'as is':
+esxidatastore=$3
 
 ################################################################################
 #
